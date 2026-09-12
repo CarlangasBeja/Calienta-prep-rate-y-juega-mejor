@@ -1,0 +1,419 @@
+/* =====================================================
+   TABLETS
+===================================================== */
+
+@media (max-width: 900px) {
+
+    .main-content {
+
+        width: 94%;
+
+    }
+
+
+    .hero {
+
+        padding: 35px;
+
+    }
+
+
+    .hero h2 {
+
+        font-size: 30px;
+
+    }
+
+
+    .routine-grid {
+
+        grid-template-columns:
+            repeat(2, 1fr);
+
+    }
+
+}
+
+
+/* =====================================================
+   CELULARES
+===================================================== */
+
+@media (max-width: 600px) {
+
+    body {
+
+        background: #f8fafc;
+
+    }
+
+
+    /* HEADER */
+
+    .header {
+
+        padding: 18px;
+
+    }
+
+
+    .brand {
+
+        gap: 10px;
+
+    }
+
+
+    .brand-icon {
+
+        width: 45px;
+        height: 45px;
+
+        font-size: 24px;
+
+    }
+
+
+    .brand h1 {
+
+        font-size: 20px;
+
+    }
+
+
+    .brand p {
+
+        font-size: 11px;
+
+    }
+
+
+    .header-ball {
+
+        display: none;
+
+    }
+
+
+    /* MAIN */
+
+    .main-content {
+
+        width: 100%;
+
+        padding: 15px 15px 110px;
+
+        margin: 0;
+
+    }
+
+
+    /* HERO */
+
+    .hero {
+
+        padding: 25px;
+
+        flex-direction: column;
+
+        text-align: center;
+
+        border-radius: 20px;
+
+    }
+
+
+    .hero-icon {
+
+        width: 80px;
+        height: 80px;
+
+        font-size: 40px;
+
+    }
+
+
+    .hero h2 {
+
+        font-size: 25px;
+
+    }
+
+
+    .hero p {
+
+        font-size: 14px;
+
+    }
+
+
+    /* CARD */
+
+    .card {
+
+        padding: 20px;
+
+        border-radius: 16px;
+
+    }
+
+
+    /* FORM */
+
+    .form-grid {
+
+        grid-template-columns: 1fr;
+
+        gap: 15px;
+
+    }
+
+
+    /* SECTION */
+
+    .section-heading h2 {
+
+        font-size: 25px;
+
+    }
+
+
+    /* ROUTINES */
+
+    .routine-grid {
+
+        grid-template-columns: 1fr;
+
+    }
+
+
+    .routine-card {
+
+        padding: 22px;
+
+    }
+
+
+    /* EXERCISES */
+
+    .exercise-header {
+
+        padding: 17px;
+
+    }
+
+
+    .exercise-header h3 {
+
+        font-size: 16px;
+
+    }
+
+
+    .exercise-body {
+
+        padding: 0 17px 20px 17px;
+
+    }
+
+
+    .exercise-number {
+
+        width: 42px;
+        height: 42px;
+
+        flex-shrink: 0;
+
+    }
+
+
+    /* TIMER */
+
+    .timer-card {
+
+        padding: 30px 18px;
+
+        border-radius: 20px;
+
+    }
+
+
+    .timer-exercise {
+
+        font-size: 21px;
+
+    }
+
+
+    .timer-display {
+
+        font-size: 62px;
+
+    }
+
+
+    .timer-buttons {
+
+        display: grid;
+
+        grid-template-columns: 1fr;
+
+    }
+
+
+    .timer-buttons .btn {
+
+        width: 100%;
+
+    }
+
+
+    /* NAV */
+
+    .bottom-nav {
+
+        width: calc(100% - 20px);
+
+        bottom: 10px;
+
+        justify-content: space-around;
+
+    }
+
+
+    .nav-item {
+
+        flex: 1;
+
+        padding: 9px 4px;
+
+    }
+
+
+    .nav-item span {
+
+        font-size: 18px;
+
+    }
+
+
+    .nav-item small {
+
+        font-size: 10px;
+
+    }
+
+}
+
+
+/* =====================================================
+   CELULARES MUY PEQUEÑOS
+===================================================== */
+
+@media (max-width: 380px) {
+
+    .brand h1 {
+
+        font-size: 17px;
+
+    }
+
+
+    .hero h2 {
+
+        font-size: 22px;
+
+    }
+
+
+    .timer-display {
+
+        font-size: 52px;
+
+    }
+
+
+    .nav-item small {
+
+        display: none;
+
+    }
+
+}
+@media (max-width: 700px) {
+
+    .header-actions {
+
+        gap: 8px;
+
+    }
+
+
+    .theme-toggle {
+
+        width: 40px;
+        height: 40px;
+
+        font-size: 18px;
+
+    }
+
+
+    .program-info {
+
+        grid-template-columns: 1fr;
+
+        gap: 15px;
+
+    }
+
+
+    .program-card {
+
+        padding: 20px;
+
+    }
+
+
+    .program-card h3 {
+
+        font-size: 17px;
+
+    }
+
+
+    .program-card p {
+
+        font-size: 13px;
+
+    }
+
+
+    .prevention-tags {
+
+        gap: 5px;
+
+    }
+
+}
+
+
+@media (max-width: 480px) {
+
+    .program-card {
+
+        flex-direction: column;
+
+    }
+
+
+    .program-icon {
+
+        width: 45px;
+        height: 45px;
+
+        min-width: 45px;
+
+    }
+
+}

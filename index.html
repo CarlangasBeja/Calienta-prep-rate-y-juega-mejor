@@ -1,0 +1,1387 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <meta
+        name="description"
+        content="Calienta y Juega - Programa de preparación deportiva para fútbol"
+    >
+
+    <meta
+        name="theme-color"
+        content="#166534"
+    >
+
+    <title>Calienta y Juega</title>
+
+
+    <!-- =========================
+         CSS
+    ========================== -->
+
+    <link
+        rel="stylesheet"
+        href="css/styles.css"
+    >
+
+    <link
+        rel="stylesheet"
+        href="css/components.css"
+    >
+
+    <link
+        rel="stylesheet"
+        href="css/responsive.css"
+    >
+
+</head>
+
+
+<body>
+
+
+<div class="app">
+
+
+    <!-- =====================================================
+         HEADER
+    ====================================================== -->
+
+    <header class="header">
+
+
+        <!-- LOGO / MARCA -->
+
+        <div class="brand">
+
+            <div class="brand-icon">
+                ⚽
+            </div>
+
+
+            <div>
+
+                <h1>
+                    Calienta y Juega
+                </h1>
+
+                <p>
+                    Preparación inteligente para el fútbol
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <!-- ACCIONES DEL HEADER -->
+
+        <div class="header-actions">
+
+
+            <div class="header-ball">
+
+                🏃 ⚽
+
+            </div>
+
+
+            <!-- BOTÓN CAMBIAR TEMA -->
+
+            <button
+                id="theme-toggle"
+                class="theme-toggle"
+                onclick="toggleTheme()"
+                aria-label="Cambiar tema"
+                title="Cambiar tema">
+
+                🌙
+
+            </button>
+
+
+        </div>
+
+
+    </header>
+
+
+
+    <!-- =====================================================
+         CONTENIDO PRINCIPAL
+    ====================================================== -->
+
+    <main class="main-content">
+
+
+
+        <!-- =================================================
+             INICIO
+        ================================================== -->
+
+        <section
+            id="inicio"
+            class="tab-content active"
+        >
+
+
+            <!-- =========================
+                 PRESENTACIÓN
+            ========================== -->
+
+            <div class="hero">
+
+
+                <div class="hero-icon">
+
+                    ⚽
+
+                </div>
+
+
+                <div class="hero-text">
+
+
+                    <span class="badge">
+
+                        ⚡ PREPARACIÓN DEPORTIVA
+
+                    </span>
+
+
+                    <h2>
+
+                        Calienta, prepárate
+                        y juega mejor
+
+                    </h2>
+
+
+                    <p>
+
+                        Programa de preparación física
+                        y técnico-táctica diseñado para
+                        preparar al jugador antes de
+                        entrar a la cancha.
+
+                    </p>
+
+
+                </div>
+
+
+            </div>
+
+
+
+            <!-- =================================================
+                 INFORMACIÓN DEL PROGRAMA
+            ================================================== -->
+
+            <div class="program-info">
+
+
+                <!-- ENTRENAMIENTO TÉCNICO-TÁCTICO -->
+
+                <div class="program-card">
+
+
+                    <div class="program-icon">
+
+                        ⚽
+
+                    </div>
+
+
+                    <div>
+
+                        <h3>
+
+                            Entrenamiento
+                            Técnico-Táctico
+
+                        </h3>
+
+
+                        <p>
+
+                            Preparación orientada a
+                            movimientos, coordinación,
+                            pases, reacción,
+                            desplazamientos y toma
+                            de decisiones propias
+                            del fútbol.
+
+                        </p>
+
+                    </div>
+
+
+                </div>
+
+
+
+                <!-- PREVENCIÓN -->
+
+                <div
+                    class="program-card prevention-card"
+                >
+
+
+                    <div class="program-icon">
+
+                        🛡️
+
+                    </div>
+
+
+                    <div>
+
+
+                        <h3>
+
+                            Protocolo de
+                            prevención activa
+
+                        </h3>
+
+
+                        <p>
+
+                            Basado en el programa
+                            <strong>FIFA 11+</strong>,
+                            incorporando ejercicios de
+                            activación, movilidad,
+                            control neuromuscular
+                            y técnica.
+
+                        </p>
+
+
+                        <!-- ZONAS DE PREVENCIÓN -->
+
+                        <div class="prevention-tags">
+
+
+                            <span>
+
+                                🦵 Isquiotibiales
+
+                            </span>
+
+
+                            <span>
+
+                                🦿 Aductores
+
+                            </span>
+
+
+                            <span>
+
+                                🛡️ LCA
+
+                            </span>
+
+
+                            <span>
+
+                                🦶 Tobillo
+
+                            </span>
+
+
+                        </div>
+
+
+                    </div>
+
+
+                </div>
+
+
+            </div>
+
+
+
+            <!-- =================================================
+                 DIAGNÓSTICO
+            ================================================== -->
+
+            <div class="card">
+
+
+                <!-- TÍTULO -->
+
+                <div class="card-title">
+
+
+                    <div class="title-icon">
+
+                        🩺
+
+                    </div>
+
+
+                    <div>
+
+                        <h3>
+
+                            Diagnóstico rápido
+
+                        </h3>
+
+
+                        <p>
+
+                            Personaliza tu calentamiento
+
+                        </p>
+
+                    </div>
+
+
+                </div>
+
+
+
+                <!-- FORMULARIO -->
+
+                <div class="form-grid">
+
+
+                    <!-- TIPO DE ACTIVIDAD -->
+
+                    <div class="form-group">
+
+
+                        <label
+                            for="diag-tipo"
+                        >
+
+                            🏆 ¿Qué vas a realizar?
+
+                        </label>
+
+
+                        <select
+                            id="diag-tipo"
+                        >
+
+
+                            <option value="partido">
+
+                                Partido
+
+                            </option>
+
+
+                            <option value="entrenamiento">
+
+                                Entrenamiento
+                                Técnico-Táctico
+
+                            </option>
+
+
+                            <option value="express">
+
+                                Calentamiento express
+
+                            </option>
+
+
+                        </select>
+
+
+                    </div>
+
+
+
+                    <!-- TIEMPO -->
+
+                    <div class="form-group">
+
+
+                        <label
+                            for="diag-tiempo"
+                        >
+
+                            ⏱️ Tiempo disponible
+
+                        </label>
+
+
+                        <select
+                            id="diag-tiempo"
+                        >
+
+
+                            <option value="20">
+
+                                20 minutos
+
+                            </option>
+
+
+                            <option value="15">
+
+                                15 minutos
+
+                            </option>
+
+
+                            <option value="10">
+
+                                10 minutos
+
+                            </option>
+
+
+                        </select>
+
+
+                    </div>
+
+
+
+                    <!-- CLIMA -->
+
+                    <div class="form-group">
+
+
+                        <label
+                            for="diag-clima"
+                        >
+
+                            🌡️ Clima
+
+                        </label>
+
+
+                        <select
+                            id="diag-clima"
+                        >
+
+
+                            <option value="normal">
+
+                                Normal
+
+                            </option>
+
+
+                            <option value="frio">
+
+                                Frío
+
+                            </option>
+
+
+                            <option value="calor">
+
+                                Calor
+
+                            </option>
+
+
+                        </select>
+
+
+                    </div>
+
+
+
+                    <!-- SUPERFICIE -->
+
+                    <div class="form-group">
+
+
+                        <label
+                            for="diag-superficie"
+                        >
+
+                            🏟️ Superficie
+
+                        </label>
+
+
+                        <select
+                            id="diag-superficie"
+                        >
+
+
+                            <option value="sintetico">
+
+                                Césped sintético
+
+                            </option>
+
+
+                            <option value="natural">
+
+                                Césped natural
+
+                            </option>
+
+
+                            <option value="futsal">
+
+                                Futsal
+
+                            </option>
+
+
+                        </select>
+
+
+                    </div>
+
+
+                </div>
+
+
+
+                <!-- BOTÓN -->
+
+                <button
+                    class="btn btn-primary btn-large"
+                    onclick="generarRecomendacion()"
+                >
+
+                    ⚡ Generar mi calentamiento
+
+                </button>
+
+
+            </div>
+
+
+
+            <!-- =================================================
+                 RESULTADO DEL DIAGNÓSTICO
+            ================================================== -->
+
+            <div
+                id="diagnostic-result"
+                class="recommendation hidden"
+            >
+
+            </div>
+
+
+        </section>
+
+
+
+        <!-- =================================================
+             RUTINAS
+        ================================================== -->
+
+        <section
+            id="rutinas"
+            class="tab-content"
+        >
+
+
+            <div class="section-heading">
+
+
+                <span class="badge">
+
+                    📋 PLANES
+
+                </span>
+
+
+                <h2>
+
+                    Rutinas de calentamiento
+
+                </h2>
+
+
+                <p>
+
+                    Selecciona una rutina según
+                    el tiempo disponible.
+
+                </p>
+
+
+            </div>
+
+
+
+            <div class="routine-grid">
+
+
+                <!-- RUTINA COMPLETA -->
+
+                <article class="routine-card">
+
+
+                    <div class="routine-icon">
+
+                        🔥
+
+                    </div>
+
+
+                    <span class="routine-tag">
+
+                        COMPLETA
+
+                    </span>
+
+
+                    <h3>
+
+                        Rutina completa
+
+                    </h3>
+
+
+                    <p>
+
+                        Preparación progresiva para
+                        partidos y entrenamientos.
+
+                    </p>
+
+
+                    <div class="routine-info">
+
+                        ⏱️ 20 minutos
+
+                    </div>
+
+
+                    <button
+                        class="btn btn-primary"
+                        onclick="seleccionarRutina('completa')"
+                    >
+
+                        ▶ Comenzar
+
+                    </button>
+
+
+                </article>
+
+
+
+                <!-- RUTINA EXPRESS -->
+
+                <article class="routine-card">
+
+
+                    <div class="routine-icon">
+
+                        ⚡
+
+                    </div>
+
+
+                    <span class="routine-tag">
+
+                        EXPRESS
+
+                    </span>
+
+
+                    <h3>
+
+                        Rutina express
+
+                    </h3>
+
+
+                    <p>
+
+                        Una preparación rápida cuando
+                        tienes poco tiempo.
+
+                    </p>
+
+
+                    <div class="routine-info">
+
+                        ⏱️ 10 minutos
+
+                    </div>
+
+
+                    <button
+                        class="btn btn-primary"
+                        onclick="seleccionarRutina('express')"
+                    >
+
+                        ▶ Comenzar
+
+                    </button>
+
+
+                </article>
+
+
+
+                <!-- RUTINA FRÍO -->
+
+                <article class="routine-card">
+
+
+                    <div class="routine-icon">
+
+                        ❄️
+
+                    </div>
+
+
+                    <span class="routine-tag">
+
+                        CLIMA FRÍO
+
+                    </span>
+
+
+                    <h3>
+
+                        Rutina para frío
+
+                    </h3>
+
+
+                    <p>
+
+                        Preparación progresiva adaptada
+                        a temperaturas bajas.
+
+                    </p>
+
+
+                    <div class="routine-info">
+
+                        ⏱️ 15 minutos
+
+                    </div>
+
+
+                    <button
+                        class="btn btn-primary"
+                        onclick="seleccionarRutina('frio')"
+                    >
+
+                        ▶ Comenzar
+
+                    </button>
+
+
+                </article>
+
+
+            </div>
+
+
+        </section>
+
+
+
+        <!-- =================================================
+             EJERCICIOS
+        ================================================== -->
+
+        <section
+            id="ejercicios"
+            class="tab-content"
+        >
+
+
+            <div class="section-heading">
+
+
+                <span class="badge">
+
+                    🏃 EJERCICIOS
+
+                </span>
+
+
+                <h2>
+
+                    Biblioteca de ejercicios
+
+                </h2>
+
+
+                <p>
+
+                    Consulta la técnica, objetivo,
+                    dosificación y prevención
+                    de cada ejercicio.
+
+                </p>
+
+
+            </div>
+
+
+
+            <!--
+
+                Los ejercicios se cargan mediante
+                JavaScript desde ejercicios.json.
+
+                Si fetch() falla al abrir el HTML
+                directamente, exercises.js utiliza
+                los datos de respaldo.
+
+            -->
+
+            <div
+                id="exercise-container"
+                class="exercise-container"
+            >
+
+
+                <!-- CARGANDO -->
+
+                <div class="card">
+
+                    <p>
+
+                        ⏳ Cargando ejercicios...
+
+                    </p>
+
+                </div>
+
+
+            </div>
+
+
+        </section>
+
+
+
+        <!-- =================================================
+             MODO CAMPO
+        ================================================== -->
+
+        <section
+            id="campo"
+            class="tab-content"
+        >
+
+
+            <div class="field-header">
+
+
+                <span class="badge">
+
+                    🏟️ MODO CAMPO
+
+                </span>
+
+
+                <h2>
+
+                    Calentamiento guiado
+
+                </h2>
+
+
+                <p>
+
+                    Sigue cada ejercicio con
+                    el temporizador.
+
+                </p>
+
+
+            </div>
+
+
+
+            <!-- TEMPORIZADOR -->
+
+            <div class="timer-card">
+
+
+                <div class="timer-phase">
+
+                    FASE 1 · ACTIVACIÓN
+
+                </div>
+
+
+                <div
+                    id="timer-exercise"
+                    class="timer-exercise"
+                >
+
+                    Circunducción de Tobillos
+
+                </div>
+
+
+                <div
+                    id="timer-display"
+                    class="timer-display"
+                >
+
+                    00:30
+
+                </div>
+
+
+                <!-- BARRA DE PROGRESO -->
+
+                <div class="timer-progress">
+
+
+                    <div
+                        id="timer-progress-bar"
+                        class="timer-progress-bar"
+                    >
+
+                    </div>
+
+
+                </div>
+
+
+
+                <!-- CONTROLES -->
+
+                <div class="timer-buttons">
+
+
+                    <button
+                        class="btn btn-secondary"
+                        onclick="reiniciarTimer()"
+                    >
+
+                        ↻ Reiniciar
+
+                    </button>
+
+
+                    <button
+                        id="timer-toggle"
+                        class="btn btn-primary"
+                        onclick="toggleTimer()"
+                    >
+
+                        ▶ Iniciar
+
+                    </button>
+
+
+                    <button
+                        class="btn btn-secondary"
+                        onclick="siguienteEjercicio()"
+                    >
+
+                        Siguiente →
+
+                    </button>
+
+
+                </div>
+
+
+            </div>
+
+
+        </section>
+
+
+
+        <!-- =================================================
+             CONTROL
+        ================================================== -->
+
+        <section
+            id="control"
+            class="tab-content"
+        >
+
+
+            <div class="section-heading">
+
+
+                <span class="badge">
+
+                    ❤️ CONTROL
+
+                </span>
+
+
+                <h2>
+
+                    Control de esfuerzo
+
+                </h2>
+
+
+                <p>
+
+                    Registra cómo percibes el esfuerzo
+                    durante la preparación.
+
+                </p>
+
+
+            </div>
+
+
+
+            <div class="card">
+
+
+                <!-- ENCABEZADO -->
+
+                <div class="effort-header">
+
+
+                    <div class="effort-icon">
+
+                        💪
+
+                    </div>
+
+
+                    <div>
+
+                        <h3>
+
+                            Escala de esfuerzo
+
+                        </h3>
+
+
+                        <p>
+
+                            Escala subjetiva de Borg
+
+                        </p>
+
+                    </div>
+
+
+                </div>
+
+
+
+                <!-- ESCALA -->
+
+                <div class="range-container">
+
+
+                    <input
+                        type="range"
+                        id="borg-range"
+                        min="1"
+                        max="10"
+                        value="4"
+                    >
+
+
+                    <div class="range-values">
+
+
+                        <span>
+
+                            1 · Muy suave
+
+                        </span>
+
+
+                        <strong
+                            id="borg-value"
+                        >
+
+                            4
+
+                        </strong>
+
+
+                        <span>
+
+                            10 · Máximo
+
+                        </span>
+
+
+                    </div>
+
+
+                </div>
+
+
+
+                <!-- MOLESTIAS -->
+
+                <div class="form-group">
+
+
+                    <label
+                        for="eval-molestia"
+                    >
+
+                        ⚠️ ¿Presentas alguna molestia?
+
+                    </label>
+
+
+                    <select
+                        id="eval-molestia"
+                    >
+
+
+                        <option value="ninguna">
+
+                            Ninguna
+
+                        </option>
+
+
+                        <option value="isquios">
+
+                            Isquiotibiales
+
+                        </option>
+
+
+                        <option value="aductores">
+
+                            Aductores
+
+                        </option>
+
+
+                        <option value="rodilla">
+
+                            Rodilla
+
+                        </option>
+
+
+                        <option value="tobillo">
+
+                            Tobillo
+
+                        </option>
+
+
+                    </select>
+
+
+                </div>
+
+
+
+                <!-- ALERTA -->
+
+                <div
+                    id="warning-alert"
+                    class="alert hidden"
+                >
+
+                    ⚠️ Si tienes dolor o una molestia
+                    importante, detén la actividad y
+                    busca orientación de un adulto
+                    responsable o profesional de salud.
+
+                </div>
+
+
+
+                <!-- GUARDAR -->
+
+                <button
+                    class="btn btn-primary btn-large"
+                    onclick="guardarHistorial()"
+                >
+
+                    💾 Guardar evaluación
+
+                </button>
+
+
+            </div>
+
+
+        </section>
+
+
+    </main>
+
+
+
+    <!-- =====================================================
+         NAVEGACIÓN INFERIOR
+    ====================================================== -->
+
+    <nav class="bottom-nav">
+
+
+        <!-- INICIO -->
+
+        <button
+            class="nav-item active"
+            onclick="switchTab('inicio', this)"
+        >
+
+            <span>
+
+                🏠
+
+            </span>
+
+
+            <small>
+
+                Inicio
+
+            </small>
+
+        </button>
+
+
+
+        <!-- RUTINAS -->
+
+        <button
+            class="nav-item"
+            onclick="switchTab('rutinas', this)"
+        >
+
+            <span>
+
+                📋
+
+            </span>
+
+
+            <small>
+
+                Rutinas
+
+            </small>
+
+        </button>
+
+
+
+        <!-- EJERCICIOS -->
+
+        <button
+            class="nav-item"
+            onclick="switchTab('ejercicios', this)"
+        >
+
+            <span>
+
+                🏃
+
+            </span>
+
+
+            <small>
+
+                Ejercicios
+
+            </small>
+
+        </button>
+
+
+
+        <!-- CAMPO -->
+
+        <button
+            class="nav-item"
+            onclick="switchTab('campo', this)"
+        >
+
+            <span>
+
+                ⚽
+
+            </span>
+
+
+            <small>
+
+                Campo
+
+            </small>
+
+        </button>
+
+
+
+        <!-- CONTROL -->
+
+        <button
+            class="nav-item"
+            onclick="switchTab('control', this)"
+        >
+
+            <span>
+
+                ❤️
+
+            </span>
+
+
+            <small>
+
+                Control
+
+            </small>
+
+        </button>
+
+
+    </nav>
+
+
+</div>
+
+<!-- FOOTER -->
+<footer class="footer">
+    <p>© 2026 Derechos Reservados</p>
+    <p>Aplicación creada por <strong>@Carlangas</strong> - C</p>
+</footer>
+
+<!-- =====================================================
+     JAVASCRIPT
+====================================================== -->
+
+<script src="js/navigation.js"></script>
+
+<script src="js/timer.js"></script>
+
+<script src="js/diagnostic.js"></script>
+
+<script src="js/exercises.js"></script>
+
+<script src="js/app.js"></script>
+
+<script src="js/theme.js"></script>
+
+
+</body>
+
+</html>

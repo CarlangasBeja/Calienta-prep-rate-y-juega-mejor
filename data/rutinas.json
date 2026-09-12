@@ -1,0 +1,39 @@
+[
+    {
+        "id": "completa",
+        "nombre": "Rutina completa",
+        "duracion": 20,
+        "descripcion": "Preparación progresiva para partidos y entrenamientos.",
+        "fases": [
+            "Movilidad articular",
+            "Activación cardiovascular",
+            "Movilidad dinámica",
+            "Control neuromuscular",
+            "Activación técnica"
+        ]
+    },
+    {
+        "id": "express",
+        "nombre": "Rutina express",
+        "duracion": 10,
+        "descripcion": "Preparación rápida cuando existe poco tiempo disponible.",
+        "fases": [
+            "Movilidad",
+            "Activación",
+            "Movimientos dinámicos",
+            "Activación específica"
+        ]
+    },
+    {
+        "id": "frio",
+        "nombre": "Rutina para clima frío",
+        "duracion": 15,
+        "descripcion": "Preparación progresiva para condiciones ambientales frías.",
+        "fases": [
+            "Movilidad progresiva",
+            "Activación cardiovascular",
+            "Movilidad dinámica",
+            "Activación específica"
+        ]
+    }
+]

@@ -1,0 +1,420 @@
+/* =========================
+   BADGES
+========================= */
+
+.badge {
+
+    display: inline-flex;
+
+    align-items: center;
+
+    padding: 7px 12px;
+
+    background: #dcfce7;
+
+    color: #166534;
+
+    border-radius: 999px;
+
+    font-size: 12px;
+
+    font-weight: bold;
+
+}
+
+
+/* =========================
+   BOTONES
+========================= */
+
+.btn {
+
+    border: none;
+
+    border-radius: 12px;
+
+    padding: 12px 18px;
+
+    font-weight: bold;
+
+    transition: .2s;
+
+}
+
+
+.btn:hover {
+
+    transform: translateY(-2px);
+
+}
+
+
+.btn-primary {
+
+    background: var(--primary);
+
+    color: white;
+
+}
+
+
+.btn-primary:hover {
+
+    background: var(--primary-dark);
+
+}
+
+
+.btn-secondary {
+
+    background: #e2e8f0;
+
+    color: #334155;
+
+}
+
+
+.btn-large {
+
+    width: 100%;
+
+    margin-top: 25px;
+
+    padding: 15px;
+
+}
+
+
+/* =========================
+   RECOMENDACIÓN
+========================= */
+
+.recommendation {
+
+    background:
+        linear-gradient(
+            135deg,
+            #ecfdf5,
+            #ffffff
+        );
+
+    border: 2px solid #86efac;
+
+    padding: 25px;
+
+    border-radius: 18px;
+
+    margin-top: 25px;
+
+}
+
+
+/* =========================
+   EJERCICIOS
+========================= */
+
+.exercise-container {
+
+    display: grid;
+
+    gap: 18px;
+
+}
+
+
+.exercise-card {
+
+    background: white;
+
+    border-radius: 18px;
+
+    box-shadow: var(--shadow);
+
+    overflow: hidden;
+
+}
+
+
+.exercise-header {
+
+    padding: 22px;
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 18px;
+
+    cursor: pointer;
+
+}
+
+
+.exercise-number {
+
+    width: 48px;
+    height: 48px;
+
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    background: #dcfce7;
+
+    color: #166534;
+
+    border-radius: 14px;
+
+    font-weight: bold;
+
+}
+
+
+.exercise-header h3 {
+
+    margin-bottom: 5px;
+
+}
+
+
+.exercise-header p {
+
+    color: var(--muted);
+
+}
+
+
+.exercise-body {
+
+    display: none;
+
+    padding: 0 22px 22px 88px;
+
+    line-height: 1.6;
+
+}
+
+
+.exercise-body.open {
+
+    display: block;
+
+}
+
+
+.exercise-detail {
+
+    margin-top: 15px;
+
+}
+
+
+.exercise-detail strong {
+
+    display: block;
+
+    margin-bottom: 4px;
+
+    color: var(--primary-dark);
+
+}
+
+
+/* =========================
+   TIMER
+========================= */
+
+.timer-card {
+
+    background:
+        linear-gradient(
+            135deg,
+            #052e16,
+            #166534
+        );
+
+    color: white;
+
+    border-radius: 25px;
+
+    padding: 45px;
+
+    text-align: center;
+
+    box-shadow: var(--shadow);
+
+}
+
+
+.timer-phase {
+
+    color: #86efac;
+
+    font-size: 13px;
+
+    font-weight: bold;
+
+    letter-spacing: 1px;
+
+}
+
+
+.timer-exercise {
+
+    font-size: 28px;
+
+    font-weight: bold;
+
+    margin: 15px 0;
+
+}
+
+
+.timer-display {
+
+    font-size: 90px;
+
+    font-weight: bold;
+
+    font-family: monospace;
+
+    margin: 20px 0;
+
+}
+
+
+.timer-progress {
+
+    width: 100%;
+
+    height: 10px;
+
+    background: rgba(255,255,255,.15);
+
+    border-radius: 20px;
+
+    overflow: hidden;
+
+}
+
+
+.timer-progress-bar {
+
+    width: 0%;
+
+    height: 100%;
+
+    background: #86efac;
+
+    transition: width .5s linear;
+
+}
+
+
+.timer-buttons {
+
+    display: flex;
+
+    justify-content: center;
+
+    gap: 12px;
+
+    margin-top: 30px;
+
+    flex-wrap: wrap;
+
+}
+
+
+/* =========================
+   CONTROL
+========================= */
+
+.effort-header {
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 15px;
+
+    margin-bottom: 30px;
+
+}
+
+
+.effort-icon {
+
+    width: 55px;
+    height: 55px;
+
+    background: #dcfce7;
+
+    border-radius: 15px;
+
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    font-size: 25px;
+
+}
+
+
+.range-container {
+
+    margin-bottom: 30px;
+
+}
+
+
+.range-container input {
+
+    width: 100%;
+
+}
+
+
+.range-values {
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    margin-top: 12px;
+
+    color: var(--muted);
+
+    font-size: 13px;
+
+}
+
+
+.range-values strong {
+
+    font-size: 30px;
+
+    color: var(--primary);
+
+}
+
+
+.alert {
+
+    margin-top: 20px;
+
+    padding: 15px;
+
+    border-radius: 12px;
+
+    background: #fef2f2;
+
+    border: 1px solid #fecaca;
+
+    color: #991b1b;
+
+}

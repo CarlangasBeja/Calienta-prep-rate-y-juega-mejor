@@ -1,0 +1,102 @@
+[
+    {
+        "fase": "Fase 1",
+        "nombre": "Circunducción de Tobillos",
+        "tag": "Movilidad articular",
+        "objetivo": "Activar la movilidad de la articulación del tobillo.",
+        "dosificacion": "30 segundos por pierna.",
+        "tecnica": "Realizar movimientos circulares controlados con el tobillo, manteniendo estabilidad.",
+        "musculos": "Movilidad articular del tobillo y musculatura estabilizadora.",
+        "prevencion": "Realizar movimientos progresivos sin rebotes ni movimientos bruscos."
+    },
+    {
+        "fase": "Fase 1",
+        "nombre": "Flexo-Extensión y Rotación de Cadera",
+        "tag": "Movilidad de cadera",
+        "objetivo": "Preparar la movilidad de la cadera y activar la musculatura estabilizadora.",
+        "dosificacion": "10 repeticiones por pierna.",
+        "tecnica": "Realizar flexión, extensión y rotación de forma controlada manteniendo el tronco estable.",
+        "musculos": "Psoas, glúteo medio y musculatura aductora.",
+        "prevencion": "Mantener una postura controlada y evitar movimientos bruscos."
+    },
+    {
+        "fase": "Fase 2",
+        "nombre": "Trote Progresivo + Desplazamientos Laterales",
+        "tag": "Activación cardiovascular",
+        "objetivo": "Elevar progresivamente la temperatura corporal y activar el sistema cardiovascular.",
+        "dosificacion": "3 minutos con desplazamientos de aproximadamente 20 metros.",
+        "tecnica": "Comenzar con trote suave y aumentar progresivamente la intensidad incorporando desplazamientos laterales.",
+        "musculos": "Piernas, glúteos y musculatura estabilizadora.",
+        "prevencion": "Incrementar la intensidad progresivamente."
+    },
+    {
+        "fase": "Fase 2",
+        "nombre": "Skipping Bajo/Alto + Talones al Glúteo",
+        "tag": "Activación dinámica",
+        "objetivo": "Activar la musculatura de las piernas y preparar movimientos dinámicos.",
+        "dosificacion": "2 series de aproximadamente 15 metros.",
+        "tecnica": "Alternar skipping bajo, skipping alto y talones al glúteo manteniendo una postura estable.",
+        "musculos": "Isquiotibiales, recto femoral y musculatura de la pierna.",
+        "prevencion": "Mantener movimientos coordinados y progresivos."
+    },
+    {
+        "fase": "Fase 3",
+        "nombre": "Balances de Pierna Anteroposterior y Lateral",
+        "tag": "Movilidad dinámica",
+        "objetivo": "Mejorar la movilidad dinámica de la cadera y preparar las piernas para cambios de movimiento.",
+        "dosificacion": "10 balanceos por dirección y pierna.",
+        "tecnica": "Realizar balanceos controlados hacia delante, atrás y lateralmente.",
+        "musculos": "Cadera, glúteos, aductores e isquiotibiales.",
+        "prevencion": "Usar amplitudes progresivas y controladas."
+    },
+    {
+        "fase": "Fase 3",
+        "nombre": "Zancadas Dinámicas con Rotación de Tronco",
+        "tag": "Movilidad y estabilidad",
+        "objetivo": "Integrar movilidad de cadera, estabilidad y rotación del tronco.",
+        "dosificacion": "8 zancadas alternadas.",
+        "tecnica": "Realizar una zancada y acompañarla con una rotación controlada del tronco.",
+        "musculos": "Glúteos, cuádriceps, isquiotibiales y musculatura del tronco.",
+        "prevencion": "Mantener la rodilla alineada y controlar el movimiento."
+    },
+    {
+        "fase": "Fase 4",
+        "nombre": "Salto Monopodal con Fijación de Caída",
+        "tag": "Control neuromuscular",
+        "objetivo": "Practicar control y estabilidad durante la recepción de un salto.",
+        "dosificacion": "6 repeticiones por pierna.",
+        "tecnica": "Realizar un salto controlado y estabilizar la recepción durante aproximadamente 2 segundos.",
+        "musculos": "Glúteos, cuádriceps, isquiotibiales y musculatura estabilizadora.",
+        "prevencion": "Priorizar el control de la recepción sobre la altura del salto."
+    },
+    {
+        "fase": "Fase 4",
+        "nombre": "Aceleraciones Breves y Desaceleración",
+        "tag": "Velocidad y control",
+        "objetivo": "Preparar al cuerpo para aceleraciones y frenadas propias del fútbol.",
+        "dosificacion": "4 repeticiones de aceleración corta y desaceleración controlada.",
+        "tecnica": "Acelerar durante una distancia corta y reducir progresivamente la velocidad.",
+        "musculos": "Glúteos, cuádriceps, isquiotibiales y pantorrillas.",
+        "prevencion": "Realizar las frenadas de forma progresiva y con espacio suficiente."
+    },
+    {
+        "fase": "Fase 5",
+        "nombre": "Pases a Un Toque + Pared Técnica",
+        "tag": "Activación técnica",
+        "objetivo": "Integrar la preparación física con gestos técnicos propios del fútbol.",
+        "dosificacion": "2 minutos por parejas.",
+        "tecnica": "Realizar pases controlados a un toque y combinar con paredes técnicas.",
+        "musculos": "Piernas y musculatura estabilizadora.",
+        "prevencion": "Mantener una intensidad progresiva y controlar la técnica."
+    },
+    {
+        "fase": "Fase 5",
+        "nombre": "Rondo de Reacción Rápida y Toma de Decisiones",
+        "tag": "Activación específica",
+        "objetivo": "Preparar la atención, reacción y toma de decisiones antes de comenzar la actividad.",
+        "dosificacion": "4 minutos utilizando formatos como 4v1 o 5v2.",
+        "tecnica": "Realizar pases rápidos y tomar decisiones con un máximo de dos contactos.",
+        "musculos": "Activación general de las piernas y musculatura estabilizadora.",
+        "prevencion": "Mantener el espacio organizado y una intensidad adecuada."
+    }
+]
